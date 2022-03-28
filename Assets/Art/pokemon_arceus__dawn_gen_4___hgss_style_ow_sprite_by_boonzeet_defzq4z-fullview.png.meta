@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: c8ee4b9e82fb82246a0c3f5c36cc6a43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3112516350940648871
+    second: Women
+  - first:
+      213: 5298841475614503691
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_1
+  - first:
+      213: -1934438432247211811
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_2
+  - first:
+      213: -6419520557111899319
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_3
+  - first:
+      213: -1249913577076602896
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_4
+  - first:
+      213: 2668668562604332800
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_5
+  - first:
+      213: 8903006519683593478
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_6
+  - first:
+      213: -1056683783321103509
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_7
+  - first:
+      213: 1237618943925692994
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_8
+  - first:
+      213: -4031714128583629675
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_9
+  - first:
+      213: 2557304720729736227
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_10
+  - first:
+      213: -6988517141888431846
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_11
+  - first:
+      213: 3796481113834906835
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_12
+  - first:
+      213: 86167135041633988
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_13
+  - first:
+      213: -6522572280624793464
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_14
+  - first:
+      213: 8640606391813359071
+    second: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Women
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 196
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5996f5121e13b20800000000000000
+      internalID: 3112516350940648871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 194
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03fb136f34498940800000000000000
+      internalID: 5298841475614503691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 196
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd89a06be7e7725e0800000000000000
+      internalID: -1934438432247211811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 194
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b070db01849e6a0800000000000000
+      internalID: -6419520557111899319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 132
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f74966593a67aee0800000000000000
+      internalID: -1249913577076602896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 132
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00798412be3090520800000000000000
+      internalID: 2668668562604332800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 132
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053abe6245dd8b70800000000000000
+      internalID: 8903006519683593478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 132
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63da3792b7e551f0800000000000000
+      internalID: -1056683783321103509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 68
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a2cff4fd7ec2110800000000000000
+      internalID: 1237618943925692994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 68
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59469d96c597c08c0800000000000000
+      internalID: -4031714128583629675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 68
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248685281f5d7320800000000000000
+      internalID: 2557304720729736227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 68
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19030bafacc30f90800000000000000
+      internalID: -6988517141888431846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4eb9a557fcfa430800000000000000
+      internalID: 3796481113834906835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce38738d80223100800000000000000
+      internalID: 86167135041633988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 4
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888bc8f911b2b75a0800000000000000
+      internalID: -6522572280624793464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_arceus__dawn_gen_4___hgss_style_ow_sprite_by_boonzeet_defzq4z-fullview_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54104cbb999e770800000000000000
+      internalID: 8640606391813359071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

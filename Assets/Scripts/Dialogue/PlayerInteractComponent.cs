@@ -19,7 +19,7 @@ namespace Dialogue
             if (_lastDialogueProvider)
             {
                 var distance = Vector2.Distance(_lastDialogueProvider.gameObject.transform.position, transform.position);
-                if (distance >= 2f)
+                if (distance >= 1f)
                 {
                     DialogueSystem.Instance.HideDialogue();
                 }
