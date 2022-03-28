@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace TurnBasedBattle
@@ -116,11 +117,11 @@ namespace TurnBasedBattle
             var isDead = _enemyUnit.TakeDamage(damage);
 
             EnemyHUD.SetHp((float) _enemyUnit.CurrentHp / (float) _enemyUnit.MaxHp);
-            DialogueText.text = _playerUnit.UnitName + "Used Skill!";
+            DialogueText.text = _playerUnit.UnitName + "Used GROWL!";
 
             yield return new WaitForSeconds(2f);
 
-            DialogueText.text = "It's super effective!";
+            DialogueText.text = _enemyUnit.UnitName + "'s attack decreased...";
 
             yield return new WaitForSeconds(2f);
 
@@ -150,6 +151,27 @@ namespace TurnBasedBattle
             StartCoroutine(SkillAttack(damage));
         }
 
+        public void OnSkillTwoButton(int damage)
+        {
+            if (State != BattleState.PlayerTurn) return;
+            SwitchUISystem.Instance.SetUiState(UIState.SkillMenu, UIState.MainMenu);
+            StartCoroutine(SkillTwoAttack(damage));
+        }
+
+        public void OnItemClick()
+        {
+            StartCoroutine(UseMasterBall());
+        }
+        
+        private IEnumerator UseMasterBall()
+        {
+            DialogueText.text = "You throw Master Ball!";
+            yield return new WaitForSeconds(2f);
+            DialogueText.text = "Espeon has been captured!!!";
+            yield return new WaitForSeconds(2f);
+            State = BattleState.Won;
+            EndBattle();
+        }
         #endregion
 
         #region EnemyTurn
@@ -188,6 +210,7 @@ namespace TurnBasedBattle
             {
                 case BattleState.Won:
                     DialogueText.text = "YOU WON THE BATTLE!!!";
+                    SceneManager.LoadScene("VillageScene");
                     break;
                 case BattleState.Lost:
                     DialogueText.text = "YOU WERE DEFEATED...";

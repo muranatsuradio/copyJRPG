@@ -12,6 +12,7 @@ namespace World
         Village,
         Wild,
         BattleScene,
+        Ending,
     }
     
     public class LevelChangeSystem : MonoBehaviour

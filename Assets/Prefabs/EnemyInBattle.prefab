@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709f93d52b8c24948a12e8e0e651f730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnitName: Enemy
+  UnitName: Espeon
   UnitLevel: 10
   Damage: 1
   MaxHp: 20

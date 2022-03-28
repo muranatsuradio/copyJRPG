@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
     guid: 2be4a87db48365147a3f2c309bfeb489
+  - enabled: 1
+    path: Assets/Scenes/VillageScene.unity
+    guid: ee8331c94cea65a4da9a900951b61e9b
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: b3cd5e2bf9dd127498278312d47a0703
   m_configObjects: {}
