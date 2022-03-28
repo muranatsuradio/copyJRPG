@@ -7,6 +7,7 @@ namespace Dialogue
     {
         private PlayerMoveComponent _playerMoveComponent;
         private DialogueProviderComponent _lastDialogueProvider;
+        public AudioSource Click;
 
         private void Start()
         {
@@ -32,7 +33,8 @@ namespace Dialogue
             
             var dialogueProvider = _playerMoveComponent.HitInfo.GetComponent<DialogueProviderComponent>();
             DialogueSystem.Instance.ShowDialogue(dialogueProvider);
-            
+            Click.Play();
+
             if (dialogueProvider.LineCount == dialogueProvider.Dialogues.Count - 1) return;
             
             dialogueProvider.LineCount++;
