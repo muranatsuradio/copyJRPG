@@ -34,11 +34,10 @@ namespace TurnBasedBattle
             }
         }
 
-        public void SetUiState(UIState newState)
+        public void SetUiState(UIState originalState, UIState newState)
         {
-            _uiStateMap[_currentUIState].SetActive(false);
+            _uiStateMap[originalState].SetActive(false);
             _uiStateMap[newState].SetActive(true);
-            _currentUIState = newState;
         }
     }
 }

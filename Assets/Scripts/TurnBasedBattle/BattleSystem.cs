@@ -47,7 +47,7 @@ namespace TurnBasedBattle
             var enemyGo = Instantiate(EnemyPrefab, EnemyBattleStation);
             _enemyUnit = enemyGo.GetComponent<BaseUnit>();
 
-            DialogueText.text = " A wild " + _enemyUnit.UnitName + " approaches!!! ";
+            DialogueText.text = " A wild " + _enemyUnit.UnitName + " approaches... ";
 
             PlayerHUD.SetHUD(_playerUnit);
             EnemyHUD.SetHUD(_enemyUnit);
@@ -59,19 +59,19 @@ namespace TurnBasedBattle
         }
 
         #region PlayerTurn
-        
+
         private void PlayerTurn()
         {
-            DialogueText.text = "CHOOSE AN ACTION: ";
+            DialogueText.text = "Choose an ACTION: ";
         }
 
         private IEnumerator PlayerAttack()
         {
             var isDead = _enemyUnit.TakeDamage(_playerUnit.Damage);
-            
-            EnemyHUD.SetHp((float)_enemyUnit.CurrentHp/(float)_enemyUnit.MaxHp);
-            DialogueText.text = "THE ATTACK IS SUCCESSFUL!!";
-            
+
+            EnemyHUD.SetHp((float) _enemyUnit.CurrentHp / (float) _enemyUnit.MaxHp);
+            DialogueText.text = "The attack is successful!!";
+
             yield return new WaitForSeconds(2f);
 
             if (isDead)
@@ -86,27 +86,58 @@ namespace TurnBasedBattle
             }
         }
 
-        
-        
+        private IEnumerator SkillAttack(int damage)
+        {
+            var isDead = _enemyUnit.TakeDamage(damage);
+
+            EnemyHUD.SetHp((float) _enemyUnit.CurrentHp / (float) _enemyUnit.MaxHp);
+            DialogueText.text = _playerUnit.UnitName + "Used Skill!";
+
+            yield return new WaitForSeconds(2f);
+
+            DialogueText.text = "It's super effective!";
+
+            yield return new WaitForSeconds(2f);
+
+            if (isDead)
+            {
+                State = BattleState.Won;
+                EndBattle();
+            }
+            else
+            {
+                State = BattleState.EnemyTurn;
+                StartCoroutine(EnemyTurn());
+            }
+        }
+
         public void OnAttackButton()
         {
             if (State != BattleState.PlayerTurn) return;
 
             StartCoroutine(PlayerAttack());
         }
+
+        public void OnSkillOneButton(int damage)
+        {
+            if (State != BattleState.PlayerTurn) return;
+            SwitchUISystem.Instance.SetUiState(UIState.SkillMenu, UIState.MainMenu);
+            StartCoroutine(SkillAttack(damage));
+        }
+
         #endregion
 
         #region EnemyTurn
 
         private IEnumerator EnemyTurn()
         {
-            DialogueText.text = _enemyUnit.UnitName + " ATTACKS!";
+            DialogueText.text = _enemyUnit.UnitName + " attacks!";
 
             yield return new WaitForSeconds(1f);
 
             var isDead = _playerUnit.TakeDamage(_enemyUnit.Damage);
-            
-            PlayerHUD.SetHp((float)_playerUnit.CurrentHp/(float)_playerUnit.MaxHp);
+
+            PlayerHUD.SetHp((float) _playerUnit.CurrentHp / (float) _playerUnit.MaxHp);
 
             yield return new WaitForSeconds(1f);
 
