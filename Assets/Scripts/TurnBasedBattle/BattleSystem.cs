@@ -91,6 +91,31 @@ namespace TurnBasedBattle
             var isDead = _enemyUnit.TakeDamage(damage);
 
             EnemyHUD.SetHp((float) _enemyUnit.CurrentHp / (float) _enemyUnit.MaxHp);
+            DialogueText.text = _playerUnit.UnitName + "Used TACKLE!";
+
+            yield return new WaitForSeconds(2f);
+
+            DialogueText.text = "It's super effective!";
+
+            yield return new WaitForSeconds(2f);
+
+            if (isDead)
+            {
+                State = BattleState.Won;
+                EndBattle();
+            }
+            else
+            {
+                State = BattleState.EnemyTurn;
+                StartCoroutine(EnemyTurn());
+            }
+        }
+        
+        private IEnumerator SkillTwoAttack(int damage)
+        {
+            var isDead = _enemyUnit.TakeDamage(damage);
+
+            EnemyHUD.SetHp((float) _enemyUnit.CurrentHp / (float) _enemyUnit.MaxHp);
             DialogueText.text = _playerUnit.UnitName + "Used Skill!";
 
             yield return new WaitForSeconds(2f);
