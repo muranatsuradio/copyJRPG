@@ -10,8 +10,9 @@ public class BaseMoveComponent : MonoBehaviour
     public float PreviousVerticalInput;
     public float PreviousHorizontalInput;
     public float Speed;
-    protected Vector2 DirectionInput;
 
+    public Collider2D HitInfo;
+    
     private Animator _animator;
     private static readonly int HorizontalInputName = Animator.StringToHash("HorizontalInput");
     private static readonly int VerticalInputName = Animator.StringToHash("VerticalInput");
@@ -43,6 +44,18 @@ public class BaseMoveComponent : MonoBehaviour
         {
             PreviousHorizontalInput = 0;
             PreviousVerticalInput = VerticalInput;
+        }
+        
+        var origin = new Vector2(transform.position.x, transform.position.y);
+        var end = new Vector2(transform.position.x + HorizontalInput, transform.position.y + VerticalInput);
+        var direction = end - origin;
+        Debug.DrawRay(origin,direction);
+        var ray = Physics2D.Raycast(origin, direction, 0.2f);
+        
+        if (ray)
+        {
+            HitInfo = ray.collider;
+            return;
         }
 
         transform.position +=

@@ -8,6 +8,16 @@ public class PlayerMoveComponent : BaseMoveComponent
     {
         HorizontalInput = Input.GetAxisRaw("Horizontal");
         VerticalInput = Input.GetAxisRaw("Vertical");
+        
+        if (HorizontalInput > 0)
+        {
+            VerticalInput = 0;
+        }
+        else if (VerticalInput > 0)
+        {
+            HorizontalInput = 0;
+        }
+
         base.Update();
     }
 }
