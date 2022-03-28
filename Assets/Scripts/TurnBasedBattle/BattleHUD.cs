@@ -7,19 +7,20 @@ namespace TurnBasedBattle
     {
         public Text NameText;
         public Text LevelText;
-        public Slider HpSlider;
+        public Image HpSlider;
 
         public void SetHUD(BaseUnit unit)
         {
             NameText.text = unit.UnitName;
             LevelText.text = "Lv: " + unit.UnitLevel;
-            HpSlider.maxValue = unit.MaxHp;
-            HpSlider.value = unit.CurrentHp;
+            
+            if (unit.MaxHp == 0) return;
+            HpSlider.fillAmount = (float)unit.CurrentHp / (float)unit.MaxHp;
         }
 
-        public void SetHp(int hp)
+        public void SetHp(float hp)
         {
-            HpSlider.value = hp;
+            HpSlider.fillAmount = hp;
         }
     }
 }
